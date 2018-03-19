@@ -5,14 +5,16 @@ body{
 .wrap{
   height: 700px;
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   background-color: orange;
 }
-
+h1{
+  padding: none;
+  margin: none;
+}
 header, footer{
   height: 100px;
-  width: 980px;
+  width: 1000px;
   clear: both;
 }
 
@@ -24,7 +26,7 @@ main {
 article {
   float: right;
   overflow-x: auto;
-  width: 660px;
+  width: 790px;
   height: 500px;
 }
 
@@ -38,12 +40,13 @@ section {
   padding: 10px;
   border: 3px black solid;
   border-radius: 20px;
-  height: 220px;
-  width: 600px;
+  height: 320px;
+  width: 730px;
 }
 
-section #games{
+#games{
   height: auto;
+  width: 730px;
 }
 
 img {
@@ -54,4 +57,5 @@ img {
 
 p {
   float: left;
+  width: 500px;
 }
