@@ -12,16 +12,22 @@ h1{
   padding: none;
   margin: none;
 }
-header, footer{
+header{
   height: 100px;
   width: 1000px;
   clear: both;
+}
+footer{
+  height: 100px;
+  width: 1000px;
+  clear: both;
+  text-align: right;
 }
 
 main {
   height: 500px;
   width: 1000px;
-  background-color: blue
+  background-color: blue;
 }
 article {
   float: right;
@@ -46,6 +52,10 @@ section {
 
 #games{
   height: auto;
+  width: 730px;
+}
+
+#intro{
   width: 730px;
 }
 
