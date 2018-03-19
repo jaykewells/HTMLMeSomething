@@ -3,14 +3,13 @@
 }
 
 img {
+  right: 40px;
   width: 250px;
   height: 250px;
-
 }
 
 p {
-
-
+  display: inline;
 }
 
 section {
