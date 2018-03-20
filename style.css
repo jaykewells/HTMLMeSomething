@@ -1,27 +1,31 @@
 body{
   background-color: grey;
+  margin: 0px;
 }
 
 .wrap{
   height: 700px;
   width: 1000px;
   margin: auto;
-  background-color: orange;
 }
-h1{
-  padding: none;
-  margin: none;
-}
+
 header{
   height: 100px;
   width: 1000px;
   clear: both;
+  text-align: center;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  font-size: 4em;
+  background-color: orange;
 }
 footer{
-  height: 100px;
-  width: 1000px;
+  height: 85px;
+  width: 985px;
   clear: both;
   text-align: right;
+  background-color: orange;
+  padding: 8px
 }
 
 main {
@@ -57,6 +61,7 @@ section {
 
 #intro{
   width: 730px;
+  height: 200px;
 }
 
 img {
@@ -68,4 +73,8 @@ img {
 p {
   float: left;
   width: 500px;
+}
+.wide{
+  float: left;
+  width: 700px;
 }
