@@ -58,6 +58,8 @@ section {
   height: 320px;
   width: 730px;
   background-image: linear-gradient(to top, #454B66 0%, #8BAEF3 100%);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #games{
