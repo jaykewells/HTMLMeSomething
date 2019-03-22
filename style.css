@@ -10,22 +10,26 @@ body{
 }
 
 header{
-  height: 100px;
+  height: 80px;
   width: 1000px;
   clear: both;
   text-align: center;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+  margin-top: 10px;
   font-size: 4em;
   background-color: #CCCDD5;
+  border: 2px black solid;
 }
+
 footer{
   height: 85px;
   width: 985px;
   clear: both;
   text-align: right;
   background-color: #CCCDD5;
-  padding: 8px
+  padding: 8px;
+  border: 2px black solid;
 }
 
 main {
@@ -33,6 +37,7 @@ main {
   width: 1000px;
   background-color: #454B66;
 }
+
 article {
   float: right;
   overflow-x: auto;
@@ -82,11 +87,11 @@ p {
   float: left;
   width: 500px;
 }
+
 .wide{
   float: left;
   width: 700px;
 }
-
 
 ::-webkit-scrollbar {
     width: 12px;
